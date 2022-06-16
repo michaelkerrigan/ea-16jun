@@ -10,6 +10,5 @@ public class Message {
     @JsonCreator
     public Message(@JsonProperty("text") String text) {
         this.setText(text);
-
     }
 }
